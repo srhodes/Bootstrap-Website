@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <!-- Additional CSS must be placed after Bootstrap CSS -->
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+
+    <link rel="stylesheet" href="node_modules/bootsrap-social/bootstrap-social.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Rhodes Cruise Line</title>
+</head>
+<header>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+      
+                <h1 class="display-1 text-center">Rhodes Cruise Line</h1>
+         
+        </div>
+    </div>
+</header>
+<body>
+<nav class="navbar sticky-top navbar-expand-md navbar-light bg-light">
+  <a href="#" class="navbar-brand">Homepage</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navigation">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#">About Us</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link" href="#">Deals</a>
+        <a class="nav-item nav-link" href="#">Blog</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a>
+      </div>
+  </div>
+</nav>
+<div class="jumbotron jumbotron-fluid">
+  <div class="container text-center">
+      <h3>Deals</h3>
+      <p class="d-none d-sm-block">Here our best deals we can offer comparing to other sites.</p>
+  </div>
+</div>
+
+<div id="accordion">
+    <div class="card">
+        <div role="tab" class="card-header">
+            <h4>
+                <a class="collapsed" data-toggle="collapse" data-target="#git">
+                    CLUB MEMBERS-ONLY OFFERS <small>Club Members Get Bigger Savings</small>
+                </a>
+            </h4>
+            <div class="collapse" id="git" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="d-none d-sm-block">Learn what's new at Carnival. Receive and check your club benefits.</p>
+               </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div role="tab" class="card-header">
+            <h4>
+                <a class="collapsed" data-toggle="collapse" data-target="#mongo">
+                    LIMITED-TIME OFFERS <small>Early Saver Sale</small>
+                </a>
+            </h4>
+            <div class="collapse" id="mongo" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="d-none d-sm-block">Sailing through August 2024. Learn about our have fun be safe protocols</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div role="tab" class="card-header">
+            <h4>
+                <a class="collapsed" data-toggle="collapse" data-target="#node">
+                    TRENDING <small>A private Island Paradise</small>
+                </a>
+            </h4>
+            <div class="collapse" id="node" data-parent="#accordion">
+                <div class="card-body">
+                    <p class="d-none d-sm-block">Grab a Carnival cruise to Half Moon Cay and from your first toe in the sand you’ll understand why it’s anything but a typical destination. </p>
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+
+
+</body>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-sm-2 offset-1">
+                <h5>Links</h5>
+                <ul>
+                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-home fa-lg"></i>
+                            Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
+                            About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i
+                                class="fa fa-address-card fa-lg"></i>
+                            Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-6 col-sm-5 text-center">
+                <h5>Social</h5>
+                <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i
+                        class="fa fa-instagram"></i></a>
+                <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i
+                        class="fa fa-facebook"></i></a>
+                <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i
+                        class="fa fa-twitter"></i></a>
+                <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i
+                        class="fa fa-youtube"></i></a>
+            </div>
+            <div class="col-sm-4 text-center">
+                <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i>
+                    1-206-555-1234</a><br />
+                <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i
+                        class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+            </div>
+        </div>
+    </div>
+</footer>
+   <!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</html>
